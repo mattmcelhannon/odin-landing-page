@@ -1,8 +1,12 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
 }
+
+/* div {
+    outline: 1px solid red;
+} */
 
 a {
     text-decoration: none;
@@ -10,4 +14,46 @@ a {
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 24px;
 }
+
+.header,
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.links {
+    margin-right: 200px;
+}
+
+.hero {
+    margin-left: 200px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+a,
+.header-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
