@@ -30,14 +30,14 @@ img {
 
 .header,
 .footer,
-.menu {
+.navbar {
     background-color: #1f2937;
     color: #f9faf8;
     padding-right: 300px;
     padding-left: 300px;
 }
 
-.menu {
+.navbar {
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
@@ -80,3 +80,35 @@ img {
     width: 180px;
 }
 
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding-right: 550px;
+    padding-left: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 700px;
+    display: flex;
+}
+
+.quote-name {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+}
