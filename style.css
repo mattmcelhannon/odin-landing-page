@@ -134,8 +134,12 @@ img {
     padding-bottom: 100px;
 }
 
+.menu-text {
+    text-align: center;
+}
+
 .peach,
-.beef,
+.chicken,
 .ice-cream,
 .coffee {
     width: 200px;
@@ -143,8 +147,21 @@ img {
     border: 5px solid #3882f6;
     border-radius: 20px;
     margin-bottom: 16px;
+    background-size: cover;
 }
 
-.menu-text {
-    text-align: center;
+.peach {
+    background-image: url("images/michael-waddell-IDs8ajdEUjg-unsplash.jpg");
+}
+
+.chicken {
+    background-image: url("images/jessica-kantak-bailey-eBjjnr5pwE0-unsplash.jpg");
+}
+
+.ice-cream {
+    background-image: url("images/leighann-blackwood--cQ2kQqpEB8-unsplash.jpg");
+}
+
+.coffee {
+    background-image: url("images/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg");
 }
