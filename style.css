@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 /* div {
@@ -13,7 +13,8 @@ a {
 }
 
 a,
-.hero-secondary {
+.hero-secondary,
+ .order-2{
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -28,13 +29,21 @@ img {
     width: 500px;
 }
 
+.navbar,
+.header,
+.menu,
+.quote-container,
+.cta,
+.footer {
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
 .header,
 .footer,
 .navbar {
     background-color: #1f2937;
     color: #f9faf8;
-    padding-right: 300px;
-    padding-left: 300px;
 }
 
 .navbar {
@@ -72,13 +81,19 @@ img {
     margin-bottom: 10px;
 }
 
-.button {
+.btn-1,
+.btn-2 {
     background-color: #3882f6;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px 40px;
     width: 100px;
+    height: 24px;
     text-align: center;
+}
+
+.btn-2 {
+    border: 2px solid #f9faf8;
 }
 
 .footer {
@@ -113,7 +128,8 @@ img {
     padding-right: 550px;
 }
 
-.menu-title {
+.menu,
+.cta {
     font-size: 36px;
     font-weight: 900px;
     color: #1f2937;
@@ -123,7 +139,7 @@ img {
     padding: 50px;
 }
 
-.menu {
+.menu-container {
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -165,4 +181,23 @@ img {
 
 .coffee {
     background-image: url("images/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg");
+}
+
+.cta {
+    background-color: #3882f6;
+    margin: 100px 300px;
+    border-radius: 10px;
+}
+
+.cta-container {
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.order-1 {
+    font-weight: 700;
+    font-size: 24px;
 }
