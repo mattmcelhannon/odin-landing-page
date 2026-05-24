@@ -77,7 +77,8 @@ img {
     border: none;
     border-radius: 5px;
     padding: 10px 40px;
-    width: 180px;
+    width: 100px;
+    text-align: center;
 }
 
 .footer {
